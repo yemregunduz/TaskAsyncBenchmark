@@ -30,7 +30,6 @@ namespace TaskAsyncBenchmark.Api
 
             services.AddControllers();
 
-            int workerThread, threads;
             //Set min threads. The min value is 8 for this pc. 
             ThreadPool.SetMaxThreads(Environment.ProcessorCount, Environment.ProcessorCount);
             
