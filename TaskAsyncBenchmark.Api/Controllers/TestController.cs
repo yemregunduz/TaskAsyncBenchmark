@@ -20,6 +20,7 @@ namespace TaskAsyncBenchmark.Api.Controllers
         [Route("Async")]
         public async Task<IActionResult> GetAsync()
         {
+            //deneme
             await Task.Delay(1000);
             return Ok();
         }
